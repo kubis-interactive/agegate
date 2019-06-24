@@ -1,0 +1,43 @@
+{
+    "name": "kubis/agegate",
+    "description": "Package for websites that requires age validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Placinta",
+            "email": "daniel.placinta@kubisinteractive.com",
+            "homepage": "kubisinteractive.com"
+        }
+    ],
+    "homepage": "https://github.com/kubis/agegate",
+    "keywords": ["Laravel", "AgeGate", "kubis", "age gate", "age-gate", "age validation"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kubis\\AgeGate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kubis\\AgeGate\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kubis\\AgeGate\\AgeGateServiceProvider"
+            ],
+            "aliases": {
+                "AgeGate": "Kubis\\AgeGate\\Facades\\AgeGate"
+            }
+        }
+    }
+}
