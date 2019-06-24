@@ -1,6 +1,6 @@
 # AgeGate
 
-Package for websites that requires age validation.
+Laravel 5.8.+ package for websites that requires age validation.
 
 ## Installation
 

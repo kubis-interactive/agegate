@@ -1,6 +1,6 @@
 {
     "name": "kubis/agegate",
-    "description": "Package for websites that requires age validation",
+    "description": "Laravel Package for websites that requires age validation",
     "license": "MIT",
     "authors": [
         {
