@@ -1,8 +1,5 @@
 # AgeGate
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-
 Package for websites that requires age validation.
 
 ## Installation
@@ -55,7 +52,7 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 ## Security
 
-If you discover any security related issues, please email daniel.placinta@kubisinteractive.com instead of using the issue tracker.
+If you discover any security related issues, please email daniel[@]kubisinteractive.com instead of using the issue tracker.
 
 ## Credits
 
