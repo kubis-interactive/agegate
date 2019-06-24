@@ -15,5 +15,5 @@
     <label for="">
         <input type="checkbox" value="1" name="remember" @if(old('remember') == 1) checked="checked" @endif /> Remember me
     </label> <br />
-    <button type="submit">Trimite</button>
+    <button type="submit">Send</button>
 </form>
